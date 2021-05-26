@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(./assets/clipart.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    height: 480px;
+    width: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: white;
+    padding: 5px;
+}
+.button-box{
+    top: 75px;
+    position: absolute;
+    width: 280px;
+}
+.inputfield{
+    width: 80%;
+    padding: 10px 0;
+    margin: 12px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid blue;
+    outline: none;
+    background: transparent;
+}
+.submitbutton{
+    width: 75%;
+    padding: 10px 20px;
+    margin: auto;
+    cursor: pointer;
+    display: block;
+    margin: 10px 10px;
+    background: lightblue;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
